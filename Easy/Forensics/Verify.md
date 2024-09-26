@@ -12,7 +12,7 @@ Connect via SSH
 We have been given the password so enter it to connect. 
 Once in, run ls to see what we have.
 
-![alt text](/Easy/Crypto/images/verify1.png)
+![alt text](/Easy/Forensics/images/verify1.png)
 
 Now we want to verify the checksum of the files and calculate the SHA-256 checksum of the files to find the legitimate one.
 
@@ -31,7 +31,7 @@ Lets use the file command to see if theres anything different
 
 Sure enough 1 file sticks out!
 
-![alt text](/Easy/Crypto/images/verify2.png)
+![alt text](/Easy/Forensics/images/verify2.png)
 
 So this is the file we need to use the decrypt.sh on
     ./decrypt.sh files/e018b574 
