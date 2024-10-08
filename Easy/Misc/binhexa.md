@@ -4,7 +4,7 @@ How well can you perfom basic binary operations?
 ## Walkthrough
 connect to the host using netcat.
 
-![alt text](image-6.png)
+![alt text](/Easy/Misc/images/binhexa1.png)
 
 To solve the binary challenge, we need to go through the operations step by step. We first need to perform a right shift operation on the given binary numbers.
 
@@ -17,29 +17,29 @@ Shifting to the right by 1 bit means moving each bit one position to the right. 
 
 Enter this into the CLI to move onto the next question
 
-![alt text](image-7.png)
+![alt text](/Easy/Misc/images/binhex2.png)
 
 Q2 - &
 Use a binary Calculater for this one!
 
-![alt text](image-8.png)
+![alt text](/Easy/Misc/images/binhex3.png)
 
 Q3 - +
 
-![alt text](image-9.png)
+![alt text](/Easy/Misc/images/binhex4.png)
 
 Q4 - |
 
-![alt text](image-10.png)
+![alt text](/Easy/Misc/images/binhex5.png)
 
 Q5 - *
 
-![alt text](image-11.png)
+![alt text](/Easy/Misc/images/binhex6.png)
 
 Q6 - <<
 
-![alt text](image-12.png)
+![alt text](/Easy/Misc/images/binhex7.png)
 
 We are then prompted to enter the last answer in hexadecial to obtain the flag.
 
-![alt text](image-13.png)
+![alt text](/Easy/Misc/images/binhex8.png)

@@ -6,35 +6,35 @@ challenge.zip
 ## Walkthrough
 Download and extract the files, then cd into the drop-in directory. Lets run the .py file within
 
-![alt text](image.png)
+![alt text](/Easy/Misc/images/cd1.png)
 
 Ok, so we need to perfrom some more analysis. Lets view file history. 
     stat flag.py
 
-![alt text](image-1.png)
+![alt text](/Easy/Misc/images/cd2.png)
 
 Lets view the logs
     git log
 
-![alt text](image-2.png)
+![alt text](/Easy/Misc/images/cd3.png)
 
 So theres possibly something within these previous versions...
 Lets use git log on the commit hash
     git show <hash>
 
-![alt text](image-3.png)
+![alt text](/Easy/Misc/images/cd4.png)
 
 Lets look at other git branches
     git branch -a
 
-![alt text](image-4.png)
+![alt text](/Easy/Misc/images/cd5.png)
 
 Lets switch to each of the branches and have a look around
     git switch <branch-name>
 
 By switching into part-1 branch and doing git log, we see a commit hash. Lets explore it more
 
-![alt text](image-5.png)
+![alt text](/Easy/Misc/images/cd6.png)
 
 So it looks like we have a partial flag - we will need to go through the other branches and repeat the process to uncover the full flag.
     git switch <branch-name>
