@@ -11,10 +11,10 @@ Now the challenge mentions Bookmarklets... i have no idea or prior knowledge of 
 So basically we need to make a bookmark with the JS code as the url/address
 So we need to use inspect tool, go to the .js script and copy the content into the bookmark address
 
-![alt text](/Easy/Web/images/Bookmarkle2.png)
+![alt text](/Easy/Web/images/Bookmarklet3.png)
 
 Save then reload to get the flag
 
-![alt text](/Easy/Web/images/Bookmarklet3.png)
+![alt text](/Easy/Web/images/Bookmarkle2.png)
 
 *In german, as its my second language
